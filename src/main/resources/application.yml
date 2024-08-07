@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: redis-interactor
+  redis:
+    host: ${{ secrets.REDIS_HOST }}
+    port: 6379
+    password: ${{ secrets.REDIS_PASSWORD }}
